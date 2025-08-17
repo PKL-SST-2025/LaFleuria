@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 import gopay from "../assets/gopay.png";
 import shopeepay from "../assets/shopeepay.png";
 import dana from "../assets/dana.png";
-import checkmark from "../assets/checkmark.png"; // ikon centang besar
+import checkmark from "../assets/Check Mark.png"; // ikon centang besar
 
 export default function Payment() {
   const [success, setSuccess] = createSignal(false);

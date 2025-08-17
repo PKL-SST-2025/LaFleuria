@@ -1,7 +1,7 @@
 import { createSignal } from "solid-js";
 import { A } from "@solidjs/router";
 import logo from "../assets/logo.png";
-import flowergirl from "../assets/091462e6-2d23-43fc-a03f-2b1d8c4151e4.png"; // Gambar yang kamu upload
+import flowergirl from "../assets/logo.png"; // Gambar yang kamu upload
 
 export default function ForgotPassword() {
   const [email, setEmail] = createSignal("");
